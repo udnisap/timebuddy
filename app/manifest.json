@@ -10,11 +10,15 @@
   "default_locale": "en",
   "background": {
     "scripts": [
+      "bower_components/moment/moment.js",
+      "bower_components/lodash/lodash.js",
+      "scripts/moment-with-timezones.js",
       "scripts/chromereload.js",
       "scripts/background.js"
     ]
   },
   "permissions": [
+    "contextMenus",
     "tabs",
     "http://*/*",
     "https://*/*"

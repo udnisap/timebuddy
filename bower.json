@@ -2,6 +2,12 @@
   "name": "timebuddy",
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "moment-timezone": "^0.5.3",
+    "lodash": "^4.11.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
