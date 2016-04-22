@@ -41,7 +41,6 @@ ${timeOnPage} ===> (${timeOnPageMoment.format('lll')})
 ${timezone} ===> ${targetTimeZone}
 ------------------------------------
 ${formatedTime.format('lll')}  (${formatedTime.fromNow()})
-unix time: ${formatedTime.unix()}
 `
     );
 
